@@ -31,9 +31,11 @@ def is_palindrome_2(word):
         print(True)
     else:
         print(False)
+        
 # 4) using slices
     if word == word[::-1]:
         print(True)
     else: print(False)
+        
 is_palindrome_2("Apple ")
 is_palindrome_2("Golog ")
